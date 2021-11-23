@@ -1,5 +1,5 @@
 {{-- halaman ini mengambil dari rio/navbar --}}
-@extends('rio/navbar')
+@extends('layouts.navbar')
 @section('bro')
     <div class="small-container">
         

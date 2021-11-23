@@ -1,5 +1,5 @@
 {{-- halaman ini mengambil dari rio/main --}}
-@extends('rio/main')
+@extends('layouts.main')
 @section('main')
     <!------------ featured categoty -------------->
     <div class="categories">
