@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('tampilan/home');
 });
+
+Route::get('/product', function () {
+    return view('tampilan/product', [
+        "title" => "Product"
+    ]);
+});

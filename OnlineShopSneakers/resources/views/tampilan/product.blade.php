@@ -1,14 +1,13 @@
 {{-- halaman ini mengambil dari rio/navbar --}}
-@extends('layouts.navbar')
+@extends('layouts/navbar')
 @section('bro')
     <div class="small-container">
         
-        <div class="row row-2">
-            <h2>All Products</h2>
-            
+        <div class="row-2">
+            <div class="col-2">
+                    <a href="{{ url('Tproduk') }}" class="btn">Tambah Produk  &#8594; </a>
+            </div>
         </div>
-
-
         <div class="row">
             <div class="col-4">
                 <a href="Product-detail.html"><img src="images/of white1.jpg" > </a>
@@ -65,8 +64,8 @@
         </div>
         <div class="row">
             <div class="col-4">
-                <a href="/NikeAirJordanDior"><img src="images/retro1.jpg" ></a>
-                <a href="/NikeAirJordanDior"><h4>NIKE AIR JORDAN DIOR</h4></a>
+                <a href="produk air dior .html"><img src="images/retro1.jpg" ></a>
+                <a href="produk air dior .html"><h4>NIKE AIR JORDAN DIOR</h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -117,7 +116,7 @@
                 <P>RP 25.599.000</P>
             </div>
         </div>
-    
+       
         <div class="row">
             <div class="col-4">
                 <a href="jam1.html"><img src="images/gold1.jpg" ></a>
@@ -133,7 +132,7 @@
                 <P>RP 3.450.000</P>
             </div>
             <div class="col-4">
-            <a href="jam4.html" ><img src="images/biru1.jpg" ></a>
+               <a href="jam4.html" ><img src="images/biru1.jpg" ></a>
                 <h4>SB DUNK LOW "Supreme - Stars - Hyper Blue"</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -146,7 +145,7 @@
                 <P>RP 2.999.000</P>
             </div>
             <div class="col-4">
-            <a href="jam2.html"><img src="images/WM1.jpg" ></a>
+               <a href="jam2.html"><img src="images/WM1.jpg" ></a>
                 <h4>NIKE 1 WMNS AIR FORCE 1 LOW"White / Grey / Gold"</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -159,7 +158,7 @@
                 <P>Rp 13.599.000</P>
             </div>
             <div class="col-4">
-            <a href="MC1.html"><img src="images/MC1.jpg" ></a>
+               <a href="MC1.html"><img src="images/MC1.jpg" ></a>
                 <h4>NIKE AIR FORCE 1 LOW SNEAKERS </h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -172,12 +171,7 @@
                 <P>RP 3.599.000</P>
             </div>
         </div>
-        <div class="page-btn">
-        <a href="selanjutnya1.html"><span>1</span></a>
-        <a href="selanjutnya2.html"><span>2</span></a>
-        <a href="selanjutnya3.html"><span>3</span></a>
-        <a href="selanjutnya4.html"><span>4</span></a>
-        <a href="next.html"><span>&#8594;</span></a>
-        </div>
+       
+             
     </div>
 @endsection

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTXPUBLIC</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style/style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,8 @@
 
 
     <div class="heading">
-        <img src="img/skull.png" >
-        <h1>DTXSNEAKERS</h1>
+        <a href="/"><img src="img/skull.png" ></a>
+        <h1>TIM - 9</h1>
     </div>
     
     <div class="Nomor">
