@@ -17,7 +17,6 @@ body {
 }
 .header .row {
   margin-top: 70px;
-  color: gold;
 }
 .header .row p{
   color: gold;
@@ -99,6 +98,11 @@ p {
   border-radius: 50%;
   margin-top: 10px;
 }
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
 
 .categories {
   margin: 70px o;
@@ -168,7 +172,7 @@ h4 {
   padding: 50px;
 }
 .offer
-small {
+small, h1, h4 {
   color: gold;
 }
 /*------------------ testimonial --------------*/
@@ -237,7 +241,9 @@ small {
   margin-bottom: 20px;
 }
 .footer-col-1,
-.footer-col-3{
+.footer-col-1,
+.footer-col-3,
+.footer-col-4 {
   min-width: 250px;
   margin-bottom: 20px;
 }
@@ -249,14 +255,15 @@ small {
   text-align: center;
 }
 .footer-col-2 img {
+  width: 180px;
   margin-bottom: 20px;
-  border-radius: 50%;
 }
-.footer-col-3{
+.footer-col-3,
+.footer-col-4 {
   flex-basis: 12%;
   text-align: center;
 }
-.footer-col-3 icon {
+.footer-col-4 icon {
   margin: 50px;
 }
 .fa fa-instagram {
@@ -285,11 +292,6 @@ ul:hover fa fa-instagram {
 }
 .Copyright {
   text-align: center;
-}
-.menu-icon {
-  width: 28px;
-  margin-left: 20px;
-  display: none;
 }
 
 /*-----------media query for menu---------------*/

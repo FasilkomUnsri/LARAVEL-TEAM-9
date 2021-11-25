@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProdukController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,11 +19,7 @@ Route::get('/', function () {
     return view('tampilan/home');
 });
 
-Route::get('/product', function () {
-    return view('tampilan/product', [
-        "title" => "Product"
-    ]);
-});
+Route::get('/product', [ProductController::class, 'product']);
 
 Route::get('/contact', function () {
     return view('tampilan/contact');
@@ -32,3 +30,5 @@ Route::get('/NikeAirJordanDior', function () {
         "title" => "NikeAirJordanDior"
     ]);
 });
+
+Route::resource('Tproduk', ProdukController::class);

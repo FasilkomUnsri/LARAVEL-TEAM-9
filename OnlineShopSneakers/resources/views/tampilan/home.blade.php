@@ -1,4 +1,4 @@
-{{-- halaman ini mengambil dari rio/main --}}
+{{-- halaman ini mengambil dari layouts/main --}}
 @extends('layouts/main')
 @section('main')
     <!------------ featured categoty -------------->
