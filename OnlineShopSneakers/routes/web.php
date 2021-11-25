@@ -22,3 +22,13 @@ Route::get('/product', function () {
         "title" => "Product"
     ]);
 });
+
+Route::get('/contact', function () {
+    return view('tampilan/contact');
+});
+
+Route::get('/NikeAirJordanDior', function () {
+    return view('detailproduk/NikeAirJordanDior', [
+        "title" => "NikeAirJordanDior"
+    ]);
+});

@@ -31,7 +31,7 @@
             </ul>
         </nav>
         
-        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
     </div>
     <div class="row">
         <div class="col-2">
@@ -48,7 +48,7 @@
 
 {{--  menampilkan tag html yang berada di dalam @section --}}
 @yield('main')
-<!------------ footer---------------->
+{{-- footer --}}
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -79,7 +79,7 @@
         <p class="Copyright">Copyright 2021 - TIM 9</p>
     </div>
 </div>
- <!--------------   js for toggle menu  ---------------->
+ {{-- js for toggle menu  --}}
     <script>
         var MenuItems = document.getElementById("MenuItems");
         

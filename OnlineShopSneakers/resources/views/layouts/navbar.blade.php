@@ -34,7 +34,7 @@
     </div>
     {{--  menampilkan tag html yang berada di dalam @section --}}
     @yield('bro')
-<!------------ footer---------------->
+{{-- footer --}}
 
 <div class="footer">
     <div class="container">
@@ -43,8 +43,8 @@
                 <h3>COMMING SOON</h3>
               <p>app under construction</p>
                 <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
                     
                 </div>
             </div>
@@ -56,9 +56,9 @@
             <div class="footer-col-4">
                 <h3>Follow US</h3>
                <ul>
-                <a href="https://www.instagram.com/dwi_tamtomo24/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
-                <a href="https://www.facebook.com/momo.tamtomo/"><i class="fa fa-facebook" style="font-size:24px"></i></a>
-                 <a href="https://www.youtube.com/channel/UCPKJ-Z6hN2MgTw_7IREF_UQ"><i class="fa fa-youtube" style="font-size:24px"></i></a>
+                <a href="https://www.instagram.com/rioalfido/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                <a href="https://www.facebook.com/rioalfido/"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                 <a href="https://www.youtube.com/channel/UCgHN2hdYvYQ_FaJd27WAohA"><i class="fa fa-youtube" style="font-size:24px"></i></a>
                </ul>
             </div>
         </div>
@@ -66,7 +66,7 @@
         <p class="Copyright">Copyriht 2021 - TIM 9</p>
     </div>
 </div>
- <!--------------   js for toggle menu  ---------------->
+ {{-- js for toggle menu --}}
     <script>
         var MenuItems = document.getElementById("MenuItems");
         

@@ -6,13 +6,13 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
-                    <a href="product detail trafiscott.html"><img src="img/gold1.jpg" ></a>
+                    <a href="product detail trafiscott.html"><img src="img/cactus1.jpg" ></a>
                 </div>
                 <div class="col-3">
-                    <a href="produk air dior .html"><img src="img/gold1.jpg" ></a>
+                    <a href="produk air dior .html"><img src="img/retro1.jpg" ></a>
                 </div>
                 <div class="col-3">
-                    <a href="aif force.html"><img src="img/gold1.jpg" ></a>
+                    <a href="aif force.html"><img src="img/levi1.jpg" ></a>
                 </div>
         </div>
         </div>
@@ -24,7 +24,7 @@
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                <a href="Product-detail.html"><img src="img/gold1.jpg"></a>
+                <a href="Product-detail.html"><img src="img/cactus1.jpg"></a>
                <a href="Product-detail.html"><h4>AIR FORCE 1 LOW "Off-White - MCA"</h4></a> 
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -37,7 +37,7 @@
                 <P>24,089,000</P>
             </div>
             <div class="col-4">
-                <a href="product detailnikeairzoom tera.html"><img src="img/gold1.jpg" ></a>
+                <a href="product detailnikeairzoom tera.html"><img src="img/cactus1.jpg" ></a>
                 <a href="product detailnikeairzoom tera.html"><h4>THE 10: NIKE AIR FORCE 1 LOW "Off-White Volt"</h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -50,7 +50,7 @@
                 <P>Rp 31,799,000</P>
             </div>
             <div class="col-4">
-                <a href="product detail trafiscott.html"><img src="img/gold1.jpg" ></a>
+                <a href="product detail trafiscott.html"><img src="img/cactus1.jpg" ></a>
                 <a href="product detail trafiscott.html"><h4>FORCE 1 PS "Cactus Jack - Travis Scott"</h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -63,7 +63,7 @@
                 <P>Rp21.389.000</P>
             </div>
             <div class="col-4">
-                <a href="product detail nike 107.html"><img src="img/gold1.jpg" ></a>
+                <a href="product detail nike 107.html"><img src="img/cactus1.jpg" ></a>
                 <a href="product detail nike 107.html"><h4>X SPACE JAM AIR FORCE 1 SNEAKERS</h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -252,6 +252,7 @@
     </div>
 <!--------------brands-------------->
 <div class="brands">
+    <h2 class="title">Brands</h2>
     <div class="small-container">
         <div class="row">
             <div class="col-5">

@@ -1,7 +1,7 @@
 {{-- halaman ini mengambil dari rio/navbar --}}
 @extends('layouts/navbar')
 @section('bro')
-        <!-------------- singel product detail-------------->
+        {{-- singel product detail --}}
 
         <div class="small-container single-product">
             <div class="row">
@@ -47,7 +47,7 @@
             </div>
         </div>
     
-    <!-------------------- title ------------------->
+    {{-- title --}}
     <div class="small-container">
         <div class="row row-2">
             <h2>Related Products</h2>
@@ -57,7 +57,7 @@
     
     
     
-    <!-------------------- products ------------------->
+    {{-- products --}}
     <div class="small-container">
            
     
