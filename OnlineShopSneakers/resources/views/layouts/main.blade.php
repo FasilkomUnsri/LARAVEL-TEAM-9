@@ -13,7 +13,7 @@
 
 </head>
 </head>
-<body>
+<body style="background-image:url({{url('img/greek-vase.png')}});">
 
 <div class="header">
     <div class="container">

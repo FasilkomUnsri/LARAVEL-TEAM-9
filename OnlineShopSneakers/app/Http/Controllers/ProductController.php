@@ -13,4 +13,10 @@ class ProductController extends Controller
         $rio = Produk::latest()->paginate(20);
         return view('tampilan.product', compact('rio',['title']));
     }
+
+    public function home()
+    {
+        $rio = Produk::latest()->paginate(20);
+        return view('tampilan.home', compact('rio'));
+    }
 }

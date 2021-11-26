@@ -76,115 +76,27 @@
                 <P>Rp 17,979,000</P>
             </div>
         </div>
+        {{-- Latest Products --}}
         <h2 class="title">Latest Products</h2>
         <div class="row">
-            <div class="col-4">
-                <a href="produk air dior .html"><img src="img/gold1.jpg" ></a>
-                <a href="produk air dior .html"><h4>NIKE AIR JORDAN DIOR HIGH RETRO</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
+            @forelse ($rio as $produk)
+                    <div class="col-4">
+                    <a href="Product-detail.html"><img src="{{ Storage::url('public/produks/').$produk->gambar }}" ></a>
+                    <a href="Product-detail.html"><h4><td>{{ $produk->judul }}</td></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <P>{!! $produk->harga !!}</P>
                 </div>
-                <P>Rp 190.999.999</P>
-            </div>
-            <div class="col-4">
-                <a href="product kayrie.html"><img src="img/gold1.jpg" ></a>
-                <a href="product kayrie.html"><h4> AIR FORCE 1 LOW SUPREME "Krink" </h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>Rp19.979.000</P>
-            </div>
-            <div class="col-4">
-                <a href="aif force.html"><img src="img/gold1.jpg" ></a>
-                <a href="aif force.html"><h4>AIR FORCE 1 X "Levi's Denim" LOW</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>Rp 41,499,000</P>
-            </div>
-            <div class="col-4">
-                <a href="sean.html"><img src="img/gold1.jpg" ></a>
-                <a href="sean.html"><h4>AIR MAX 1/97 VF SW "Sean Wotherspoon"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>RP 25.599.000</P>
-            </div>
+            @empty
+            @endforelse
         </div>
-        <div class="row">
-            <div class="col-4">
-                <a href="jam1.html"><img src="img/gold1.jpg" ></a>
-                <a href="jam1.html"><h4>AIR FORCE 1 LOW "Off-White - University Gold"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>RP 44.599.000</P>
-            </div>
-            <div class="col-4">
-                <a href="jam4.html"><img src="img/gold1.jpg" ></a>
-                <a href="jam4.html"><h4>SB DUNK LOW "Supreme - Stars - Hyper Blue"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                    
-                </div>
-                <P>RP 33.599.000</P>
-            </div>
-            <div class="col-4">
-                <a href="jam2.html"><img src="img/gold1.jpg" ></a>
-                <a href="jam2.html"><h4>NIKE 1 WMNS AIR FORCE 1 LOW"White / Grey / Gold"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                    
-                </div>
-                <P>RP 13.599.000</P>
-            </div>
-            <div class="col-4">
-                <a href="MC1.html"><img src="img/gold1.jpg" ></a>
-                    <a href="MC1.html"><h4>NIKE AIR FORCE 1 LOW STRIPES SNEAKERS</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                    
-                </div>
-                <P>RP 5.599.000</P>
-            </div>
-    </div>
+        
 <!------------offer----------------->
     <div class="offer">
         <div class="small-container">

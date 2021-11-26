@@ -5,7 +5,6 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(img/greek-vase.png);
 }
 .header {
   background-color: #1e2759;
@@ -168,11 +167,10 @@ h4 {
   margin-top: 80px;
   padding: 30px 0;
 }
-.col-2 .offer-img {
+.offer .col-2 .offer-img {
   padding: 50px;
 }
-.offer
-small, h1, h4 {
+.offer small, h1, h4 {
   color: gold;
 }
 /*------------------ testimonial --------------*/
@@ -257,6 +255,7 @@ small, h1, h4 {
 .footer-col-2 img {
   width: 180px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 .footer-col-3,
 .footer-col-4 {

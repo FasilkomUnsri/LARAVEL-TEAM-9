@@ -5,7 +5,6 @@
   }
   body {
     font-family: "Poppins", sans-serif;
-    background-image: url(img/greek-vase.png);
   }
   .header {
     background-color: #1e2759;
@@ -194,6 +193,7 @@
   .footer-col-2 img {
     width: 180px;
     margin-bottom: 20px;
+    border-radius: 50%;
   }
   .footer-col-3,
   .footer-col-4 {

@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('tampilan/home');
-});
+Route::get('/', [ProductController::class, 'home']);
 
 Route::get('/product', [ProductController::class, 'product']);
 
