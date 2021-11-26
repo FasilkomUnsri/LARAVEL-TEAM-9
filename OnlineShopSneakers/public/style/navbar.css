@@ -189,6 +189,7 @@
   .footer-col-2 {
     flex: 1;
     text-align: center;
+    border-radius: 50%;
   }
   .footer-col-2 img {
     width: 180px;

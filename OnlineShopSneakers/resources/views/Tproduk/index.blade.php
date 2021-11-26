@@ -6,6 +6,11 @@
       <title>Produk</title>
       <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
       <link rel="stylesheet" href="{{ asset('toastr/toastr.min.css') }}">
+      <style>
+         th{
+            text-align: center;
+         }
+      </style>
    </head>
 <body class="d-flex flex-column h-100">
    <main class="flex-shrink-0">

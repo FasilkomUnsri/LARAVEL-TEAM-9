@@ -176,7 +176,7 @@ h4 {
 /*------------------ testimonial --------------*/
 
 .testimonial {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .testimonial .col-3 {
   text-align: center;
@@ -209,10 +209,9 @@ h4 {
 }
 /*------------------brands-------------------*/
 .brands {
-  margin: 100px auto;
+  margin: 20px;
 }
-
-.col-5 {
+.brands .col-5 {
   width: 160px;
 }
 .col-5 img {
