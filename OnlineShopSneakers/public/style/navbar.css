@@ -6,19 +6,10 @@
   body {
     font-family: "Poppins", sans-serif;
   }
-  .header {
-    background-color: #1e2759;
-  }
   .navbar {
     display: flex;
     align-items: center;
     padding: 20px;
-  }
-  .header .row {
-    margin-top: 70px;
-  }
-  .header .row p{
-    color: gold;
   }
   nav {
     flex: 1;
@@ -58,8 +49,8 @@
     padding-left: 25px;
     padding-right: 25px;
   }
-  
-  .row {
+  /* main */
+ main .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -161,13 +152,48 @@
   .col-4:hover {
     transform: translateY(-5px);
   }
-/*------------footer------------*/
+  /*---------------single product detail-------------*/
 
+.single-product {
+  margin-top: 80px;
+}
+.single-product .col-2 img {
+  padding: 0;
+}
+.single-product .col-2 {
+  padding: 20px;
+}
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+input:focus {
+  outline: none;
+}
+.single-product .fa {
+  color: #ff523b;
+  margin-left: 10px;
+}
+/*------------footer------------*/
 .footer {
     background: #1e2759;
-    color: #8a8a8a;
     font-size: 14px;
-    padding: 60px 0 20px;
+    padding: 0;
+    margin: 0;
   }
   .footer p {
     color: whitesmoke;

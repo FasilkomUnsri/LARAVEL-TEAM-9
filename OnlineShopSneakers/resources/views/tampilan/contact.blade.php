@@ -18,16 +18,16 @@
 
     <div class="heading">
         <a href="/"><img src="img/skull.png" ></a>
-        <h1>TIM - 9</h1>
+        <h1>ORDER BY whatsapp</h1>
     </div>
     
     <div class="Nomor">
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY INSTAGRAM</a>
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY ADMIN IG 1</a>
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY ADMIN IG 2</a>
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY ADMIN IG 3</a>
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY ADMIN IG 4</a>
-    <a class="kotak" href="https://www.instagram.com/dwi_tamtomo24/">ORDER BY ADMIN IG 5</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 1</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 2</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 3</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 4</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 5</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 6</a>
 </div>
 
 </body>

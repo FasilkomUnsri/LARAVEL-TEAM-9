@@ -57,7 +57,7 @@
                               @endforelse
                            </tbody>
                         </table>
-                        {{ $produks->links() }}
+                        {{ $produks->links() }}{{-- digunakan jika dicontroller hanya menampilkan 20 data sedangkan didatabase ada 40 maka akan membuat link untuk halaman selanjutnya --}}
                      </div>
                   </div>
                </div>

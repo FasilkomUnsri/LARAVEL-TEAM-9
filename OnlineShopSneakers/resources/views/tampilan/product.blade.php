@@ -1,6 +1,7 @@
 {{-- halaman ini mengambil dari layouts/navbar --}}
 @extends('layouts/navbar')
 @section('bro')
+<main>
     <div class="small-container">
         
         <div class="row-2">
@@ -33,3 +34,4 @@
     
     </div>
 @endsection
+</main>

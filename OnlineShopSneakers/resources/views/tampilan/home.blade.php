@@ -1,98 +1,48 @@
 {{-- halaman ini mengambil dari layouts/main --}}
 @extends('layouts/main')
 @section('main')
-    <!------------ featured categoty -------------->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <a href="product detail trafiscott.html"><img src="img/cactus1.jpg" ></a>
-                </div>
-                <div class="col-3">
-                    <a href="produk air dior .html"><img src="img/retro1.jpg" ></a>
-                </div>
-                <div class="col-3">
-                    <a href="aif force.html"><img src="img/levi1.jpg" ></a>
-                </div>
-        </div>
-        </div>
-       
-    </div>
     <!------------------featured product------------------>
 
     <div class="small-container">
         <h2 class="title">Featured Products</h2>
         <div class="row">
-            <div class="col-4">
-                <a href="Product-detail.html"><img src="img/cactus1.jpg"></a>
-               <a href="Product-detail.html"><h4>AIR FORCE 1 LOW "Off-White - MCA"</h4></a> 
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
+            @forelse ($rio as $produk)
+                    <div class="col-4">
+                    <a href="Product-detail.html">
+                        <img src="{{ Storage::url('public/produks/').$produk->gambar }}">
+                        <h4>{{ $produk->judul }}</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <P>{!! $produk->harga !!}</P>
+                    </a>
                 </div>
-                <P>24,089,000</P>
-            </div>
-            <div class="col-4">
-                <a href="product detailnikeairzoom tera.html"><img src="img/cactus1.jpg" ></a>
-                <a href="product detailnikeairzoom tera.html"><h4>THE 10: NIKE AIR FORCE 1 LOW "Off-White Volt"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>Rp 31,799,000</P>
-            </div>
-            <div class="col-4">
-                <a href="product detail trafiscott.html"><img src="img/cactus1.jpg" ></a>
-                <a href="product detail trafiscott.html"><h4>FORCE 1 PS "Cactus Jack - Travis Scott"</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>Rp21.389.000</P>
-            </div>
-            <div class="col-4">
-                <a href="product detail nike 107.html"><img src="img/cactus1.jpg" ></a>
-                <a href="product detail nike 107.html"><h4>X SPACE JAM AIR FORCE 1 SNEAKERS</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    
-                </div>
-                <P>Rp 17,979,000</P>
-            </div>
+            @empty
+            @endforelse
         </div>
-    
         {{-- Latest Products --}}
         <h2 class="title">Latest Products</h2>
         <div class="row">
             @forelse ($rio as $produk)
                     <div class="col-4">
-                    <a href="Product-detail.html"><img src="{{ Storage::url('public/produks/').$produk->gambar }}" ></a>
-                    <a href="Product-detail.html"><h4><td>{{ $produk->judul }}</td></h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        
-                    </div>
-                    <P>{!! $produk->harga !!}</P>
+                    <a href="Product-detail.html">
+                        <img src="{{ Storage::url('public/produks/').$produk->gambar }}">
+                        <h4>{{ $produk->judul }}</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <P>{!! $produk->harga !!}</P>
+                    </a>
                 </div>
             @empty
             @endforelse

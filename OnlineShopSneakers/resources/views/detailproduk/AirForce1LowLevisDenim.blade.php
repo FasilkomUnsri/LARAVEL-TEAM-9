@@ -1,41 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTXPUBLIC </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-
-    <div class="container">
-          <div class="navbar">
-        <div class="logo">
-            <a href="index.html"><img src="images/Screenshot (543)-modified.png" width="80px">
-        </div>
-        <nav>
-            <ul id="MenuItems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Product</a></li>
-                <li><a href="https://www.google.co.id/maps/place/Toko+Burung+TG/@-6.3695873,106.7389819,17z/data=!4m5!3m4!1s0x0:0x1d40843e14ced6b0!8m2!3d-6.3696459!4d106.7390159">Maps</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="account.html">Account</a></li>
-            </ul>
-        </nav>
-        <a href="contact.html"><img src="images/cart.png" width="=30px" height="30px"></a>
-        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
-    </div>
-    </div>
-
+{{-- halaman ini mengambil dari layouts/navbar --}}
+@extends('layouts/navbar')
+@section('bro')
     <!-------------- singel product detail-------------->
-
     <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
@@ -130,79 +96,4 @@
     </div>
   
 </div>
-<!------------ footer---------------->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>COMMING SOON</h3>
-              <p>app under construction</p>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
-                    
-                </div>
-            </div>
-            <div class="footer-col-2">
-                <img src="images/Screenshot (543)-modified.png" style="width: 50px;">
-                <p>find your dream accessories here</p>
-            </div>
-           
-            <div class="footer-col-4">
-                <h3>Follow US</h3>
-               <ul>
-                <a href="https://www.instagram.com/dwi_tamtomo24/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
-                <a href="https://www.facebook.com/momo.tamtomo/"><i class="fa fa-facebook" style="font-size:24px"></i></a>
-                 <a href="https://www.youtube.com/channel/UCPKJ-Z6hN2MgTw_7IREF_UQ"><i class="fa fa-youtube" style="font-size:24px"></i></a>
-               </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="Copyright">Copyriht 2021 - Dwi Tamtomo</p>
-    </div>
-</div>
- <!--------------   js for toggle menu  ---------------->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px";
-
-            }
-            else
-            {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
-
-<!------------------js for product gallery --------------->
-<script>
-    var productimg = document.getElementById("productimg");
-    var smallimg = document.getElementsByClassName("small-img");
-
-    smallimg[0].onclick = function()
-    {
-        productimg.src = smallimg[0].src;
-    }
-    smallimg[1].onclick = function()
-    {
-        productimg.src = smallimg[01].src;
-    }
-    smallimg[2].onclick = function()
-    {
-        productimg.src = smallimg[2].src;
-    }
-    smallimg[3].onclick = function()
-    {
-        productimg.src = smallimg[3].src;
-    }
-
-</script>
-
-</body>
-</html></html>
+@endsection
