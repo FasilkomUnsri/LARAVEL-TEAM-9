@@ -8,7 +8,7 @@
         <div class="row">
             @forelse ($rio as $produk)
                     <div class="col-4">
-                    <a href="Product-detail.html">
+                    <a href="{{ url('detailproduk') }}/{{ $produk->id }}">
                         <img src="{{ Storage::url('public/produks/').$produk->gambar }}">
                         <h4>{{ $produk->judul }}</h4>
                         <div class="rating">
@@ -19,18 +19,18 @@
                             <i class="fa fa-star"></i>
                             
                         </div>
-                        <P>{!! $produk->harga !!}</P>
+                        <P>{{ $produk->harga }}</P>
                     </a>
                 </div>
             @empty
             @endforelse
         </div>
         {{-- Latest Products --}}
-        <h2 class="title">Latest Products</h2>
+        <h2 class="title">Product</h2>
         <div class="row">
             @forelse ($rio as $produk)
                     <div class="col-4">
-                    <a href="Product-detail.html">
+                    <a href="{{ url('detailproduk') }}/{{ $produk->id }}">
                         <img src="{{ Storage::url('public/produks/').$produk->gambar }}">
                         <h4>{{ $produk->judul }}</h4>
                         <div class="rating">
@@ -41,7 +41,7 @@
                             <i class="fa fa-star"></i>
                             
                         </div>
-                        <P>{!! $produk->harga !!}</P>
+                        <P>{{ $produk->harga }}</P>
                     </a>
                 </div>
             @empty

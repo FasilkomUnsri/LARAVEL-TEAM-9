@@ -10,13 +10,13 @@ class ProductController extends Controller
     public function product()
     {
         $title = 'All Produk';
-        $rio = Produk::latest()->paginate(20);
-        return view('tampilan.product', compact('rio',['title']));
+        $rio = Produk::paginate(20);
+        return view('tampilan.product', compact('rio','title'));
     }
 
     public function home()
     {
-        $rio = Produk::latest()->paginate(20);
+        $rio = Produk::latest()->paginate(8);
         return view('tampilan.home', compact('rio'));
     }
 }

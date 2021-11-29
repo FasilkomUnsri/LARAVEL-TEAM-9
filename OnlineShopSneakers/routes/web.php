@@ -15,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['namespace' => 'App\Http\Controllers'], function()
+{
+    Route::get('/', 'ProductController@home')->name('home');
+});
 
-Route::get('/', [ProductController::class,'home']);
 
 Route::get('/product', [ProductController::class, 'product']);
 
@@ -24,6 +27,6 @@ Route::get('/contact', function () {
     return view('tampilan/contact');
 });
 
-Route::get('detailproduk.NikeAirJordanDior', [DetailprodukController::class, '']);
+Route::get('detailproduk/{id}', [DetailprodukController::class, 'index']);
 
 Route::resource('Tproduk', ProdukController::class);

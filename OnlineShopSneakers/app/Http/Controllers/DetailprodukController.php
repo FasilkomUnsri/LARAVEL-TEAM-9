@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class DetailprodukController extends Controller
 {
-    public function NikeAirJordanDior()
+    public function index($id)
     {
-        $title = 'NikeAirJordanDior';
-        $dp = Produk::find(1);
-        return view('detailproduk.NikeAirJordanDior', compact('title'));
+        $title = "Sneakers";
+        $alfido = Produk::where('id', $id)->first();
+        return view('detailproduk.index', compact('alfido','title'));
 
     }
 }
