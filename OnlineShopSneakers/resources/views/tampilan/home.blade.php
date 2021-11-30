@@ -26,7 +26,7 @@
             @endforelse
         </div>
         {{-- Latest Products --}}
-        <h2 class="title">Product</h2>
+        <h2 class="title">Latest Products</h2>
         <div class="row">
             @forelse ($rio as $produk)
                     <div class="col-4">
@@ -58,7 +58,7 @@
                     <h4>Exclusive Available On DTXSNEAKERS</h4>
                         <h1>Air Jordan 1 Dior </h1>
                         <small>For the Men’s Fall 2020 Runway show in Miami, Dior and Kim Jones partnered with Jordan Brand to unveil the limited-edition Air Jordan 1 High OG Dior sneaker. A collection of ready-to-wear and accessories completes the collaboration, and a low version of the Air Jordan 1 OG Dior rounds out the range.</small>
-                    <br>  <a href="/NikeAirJordanDior" class="btn">Buy Now &#8594;</a>
+                    <br>  <a href="/contact" class="btn">Buy Now &#8594;</a>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@
                     <li><a href="/product">Product</a></li>
                     <li><a href="https://www.google.co.id/maps/place/LOVARIS+Shoes+Store/@-6.3692446,106.7367864,15z/data=!4m9!1m2!2m1!1stoko+sneakers!3m5!1s0x2e69ef2c48896dd9:0x6f9207345ebdda2b!8m2!3d-6.3692289!4d106.7455023!15sCg10b2tvIHNuZWFrZXJzkgEKc2hvZV9zdG9yZQ">Maps</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
+                    <li><a href="account">Account</a></li>
                 </ul>
             </nav>
             
@@ -40,7 +40,7 @@
                     <a href="/product" class="btn">Explore Now &#8594;</a>
             </div>
             <div class="col-2">
-                <a href="detailproduk.NikeAirJordanDior"><img src="img/dior.jpg"></a> 
+                <a href="{{ url('detailproduk') }}/{{ $produk->id }}"><img src="img/dior.jpg"></a> 
             </div>
         </div>
         </div>

@@ -23,11 +23,11 @@
     
     <div class="Nomor">
     <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 1</a>
-    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 2</a>
-    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 3</a>
-    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 4</a>
-    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 5</a>
-    <a class="kotak" href="https://api.whatsapp.com/send?phone=6282186017359&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 6</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6283189494821&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 2</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6281274337649&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 3</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=6281370047425&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 4</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=62895617864100&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 5</a>
+    <a class="kotak" href="https://api.whatsapp.com/send?phone=628982365915&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami">ORDER BY ADMIN WA 6</a>
 </div>
 
 </body>
