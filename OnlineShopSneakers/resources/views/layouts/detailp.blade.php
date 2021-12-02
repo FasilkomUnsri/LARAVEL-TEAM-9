@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ asset('style/dproduk.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
 </head>
 <body style="background-image:url({{ asset('img/greek-vase.png') }});">
@@ -24,7 +23,7 @@
                         <li><a href="/product">Product</a></li>
                         <li><a href="https://www.google.co.id/maps/place/LOVARIS+Shoes+Store/@-6.3692446,106.7367864,15z/data=!4m9!1m2!2m1!1stoko+sneakers!3m5!1s0x2e69ef2c48896dd9:0x6f9207345ebdda2b!8m2!3d-6.3692289!4d106.7455023!15sCg10b2tvIHNuZWFrZXJzkgEKc2hvZV9zdG9yZQ">Maps</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="account">Account</a></li>
+                        <li><a href="/login">Login</a></li>
                     </ul>
                 </nav>
                 

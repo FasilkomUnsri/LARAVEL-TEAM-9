@@ -1,5 +1,5 @@
 {{-- halaman ini mengambil dari layouts/navbar --}}
-@extends('layouts/navbar')
+@extends('layouts/topbar')
 @section('bro')
 <main>
     <div class="small-container">
